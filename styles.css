@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(255, 251, 0);
+    margin-left: 2cm;
+    
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.person1{
+    border: 2px solid rgb(0, 0, 0);
+    width: 400px;
+    height: 400px;
+    background-color: rgb(94, 255, 0);
+    text-align: center;
+}
+.chatbox{
+    border: 2px solid rgb(0, 0, 0);
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.person2{
+    border: 2px solid rgb(0, 0, 0);
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    text-align: center;
+}
+img{
+    height: 250px;
+    width: 400px;
+}
+input[type="text"]
+{
+    width: 300px;
+    margin-left: 0.5cm;
+    margin-top: 0.4cm;
+    height: 1cm;
+}
+input[type="button"]
+{
+    width: 65px;
+    height:1cm ;
+}
+p{
+    font-size: xx-large;
+    margin: 30px;
+    background-color: rgb(255, 255, 104);
+    
+}
+a
+{
+    color: red;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: blue;
+    font-size: larger;
+}
